@@ -11,22 +11,19 @@ I work with LLMs and agentic tooling every day — not as autocomplete, but as a
 
 ---
 
-## Published apps
-
-| | What | Stack |
-|---|---|---|
-| **[Idelog](https://apps.apple.com/us/app/idelog/id6761336520)** · [Google Play](https://play.google.com/store/apps/details?id=com.maxesoft.idelo) | Capture ideas before they fade. Speech recognition runs **offline**, on device | Flutter, Whisper GGML, sqflite |
-| **[Simple Focus Reminder](https://apps.apple.com/us/app/simple-focus-reminder/id6483003136)** | Full-screen nudge back to work | Swift, AppKit, macOS |
-
-## Projects
-
-**TeaderBook** — an e-reader for language learners. FB2 and EPUB, translation on tap: single tap for the sentence, double tap for the word, plus an explanation of the context. Three translation engines, offline and online. Flutter + MobX on the client, Go and SQLite on the server, LLM calls proxied through the backend.
+## Pet projects
 
 **Agent Upwork** — an agent that watches a job feed and hands over a decision instead of a task. Collection runs as a browser extension inside an ordinary session: Cloudflare detects CDP-driven browsers, and that came out of experiment rather than documentation. Two rule stages filter before the first model call, so tokens are spent only on what rules cannot decide. Scoring is a single schema-constrained call. A human approves in Telegram. TypeScript, Fastify, Prisma, zod.
 
-**imgToHomestyler** — photos of cabinet furniture become 3D models. The decision that shapes everything: **the model returns data, not code**. A vision LLM fills in a JSON spec of the construction; a deterministic generator builds the geometry. The same spec yields a byte-identical model, and a failure looks like a schema mismatch rather than quietly assembled garbage. Python, FastAPI, glTF/GLB. [Bot](https://t.me/hs_model_generate_bot)
+**TeaderBook** — an e-reader for language learners. FB2 and EPUB, translation on tap: single tap for the sentence, double tap for the word, plus an explanation of the context. Three translation engines, offline and online. Flutter + MobX on the client, Go and SQLite on the server, LLM calls proxied through the backend.
+
+**imgToHomestyler** — photos of cabinet furniture become 3D models. The decision that shapes everything: **the model returns data, not code**. A vision LLM fills in a JSON spec of the construction; a deterministic generator builds the geometry. The same spec yields a byte-identical model, and a failure looks like a schema mismatch rather than quietly assembled garbage. Python, FastAPI, glTF/GLB. → [Telegram bot](https://t.me/hs_model_generate_bot)
 
 **Passix** — a password manager where sync keys never reach the server. XChaCha20-Poly1305, X25519, HKDF-SHA256, Argon2. Flutter + Go.
+
+**Idelog** — capture ideas before they fade. Speech recognition runs offline, on device. Flutter, Whisper GGML, sqflite. → [App Store](https://apps.apple.com/us/app/idelog/id6761336520) · [Google Play](https://play.google.com/store/apps/details?id=com.maxesoft.idelo)
+
+**Simple Focus Reminder** — a full-screen nudge back to work. Swift, AppKit, macOS. → [Mac App Store](https://apps.apple.com/us/app/simple-focus-reminder/id6483003136)
 
 ## Open source
 
