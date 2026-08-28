@@ -1,6 +1,6 @@
-# Maxim Gornostaev
+# Max Gornostayev
 
-**Senior Full Stack Developer** · Remote
+**Senior Full Stack Developer · Software Architect** · Remote
 
 20+ years in web and mobile development. React Native, React, Node.js, TypeScript, Go, Flutter.
 Currently building mobile apps at [Showmojo](https://showmojo.com), including Bluetooth device integration and firmware fixes in C++.
