@@ -13,11 +13,11 @@ I code alongside AI agents every day. The hard part isn't the prompt — it's gi
 
 ## Open source
 
+- **[react-native-jwt-io](https://github.com/maxweb4u/react-native-jwt-io)** — sign, verify and decode JWTs on the device in pure TypeScript: 14 algorithms (HMAC, RSA, RSA-PSS, ECDSA, EdDSA) on Hermes, no native module, synchronous API, `alg: none` never accepted, tested against Node's crypto and the Wycheproof vectors. On npm since 2017, ~12k downloads a month; the 2.0 rewrite is on the `next` tag. TypeScript, MIT · [npm](https://www.npmjs.com/package/react-native-jwt-io)
 - **[react-native-matrix](https://github.com/maxweb4u/react-native-matrix)** — typed components and hooks for Matrix chat: session, room encryption, timeline, 12 ready components. Zero runtime dependencies, integration tests against Synapse. TypeScript, MIT · [npm](https://www.npmjs.com/package/react-native-matrix)
 - **[ebook_parser](https://github.com/maxweb4u/ebook_parser)** — parses EPUB and FB2 into one document model. Format detection by magic bytes, transparent `.fb2.zip` handling, lazy sentence and word segmentation, a cheap metadata-only path. Dart, MIT · [pub.dev](https://pub.dev/packages/ebook_parser)
 - **[boxglb](https://github.com/maxweb4u/boxglb)** — glTF 2.0 / GLB from axis-aligned boxes with zero dependencies. Writes per-face normals and world-scale planar UVs, which none of the alternatives do — so the model takes a texture without unwrapping it by hand. Python, MIT · [PyPI](https://pypi.org/project/boxglb/)
 - **[mcp-memorybank](https://github.com/maxweb4u/mcp-memorybank)** — MCP server over a project knowledge base: routing without reading the documents, gated writes, SSoT and broken-link checks, and drift between the docs and the code. 15 tools. TypeScript, MIT · [npm](https://www.npmjs.com/package/@maxweb4u/mcp-memorybank) · listed on [mcpservers.org](https://mcpservers.org)
-- **[react-native-jwt-io](https://github.com/maxweb4u/react-native-jwt-io)** — sign, verify and decode JWTs on the device in pure TypeScript: 14 algorithms (HMAC, RSA, RSA-PSS, ECDSA, EdDSA) on Hermes, no native module, synchronous API, `alg: none` never accepted, tested against Node's crypto and the Wycheproof vectors. On npm since 2017, ~12k downloads a month; the 2.0 rewrite is on the `next` tag. TypeScript, MIT · [npm](https://www.npmjs.com/package/react-native-jwt-io)
 
 ## Projects
 
